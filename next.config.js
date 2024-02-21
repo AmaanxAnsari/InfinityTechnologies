@@ -3,6 +3,7 @@ const nextConfig = {
   output: "export",
   images: {
     domains: ["localhost"],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
