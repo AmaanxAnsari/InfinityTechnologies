@@ -12,6 +12,7 @@ const nextConfig = {
       },
     ],
   },
+  basePath: 'https://github.com/AmaanxAnsari/InfinityTechnologies', 
 };
 
 module.exports = nextConfig;
