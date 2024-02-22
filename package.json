@@ -7,7 +7,8 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build:tailwind": "next build"
+    "export": "next export",
+    "build:tailwind": "next build && postcss styles -o public/styles.css"
   },
   "dependencies": {
     "eslint": "^8.56.0",
