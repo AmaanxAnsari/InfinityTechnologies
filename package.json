@@ -1,12 +1,14 @@
 {
   "name": "startup-nextjs-template",
+  "homepage": "https://AmaanxAnsari.github.io/InfinityTechnologies",
   "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && tailwindcss build src/styles/index.css -o public/styles.css",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "build:tailwind": "next build && postcss styles -o public/styles.css"
   },
   "dependencies": {
     "eslint": "^8.56.0",
